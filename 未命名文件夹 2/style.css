@@ -1,0 +1,36 @@
+p:hover {
+    font-size: 30px;
+    color: red;
+ }
+ 
+ .standout{
+    color:pink;
+ }
+ 
+ .image1{
+      width: 80%;
+      height: auto;
+}
+
+
+ .image2 {
+   width: 50%; /* 指定宽度 */
+   height: auto; /* 高度按比例自动调整 */
+}
+
+.container {
+   display: flex;
+   align-items: center; /* 垂直居中对齐 */
+   gap: 20px; /* 图片和文字之间的间距 */
+}
+.image-container {
+   flex: 0 0 auto; /* 固定图片宽度 */
+   max-width: 50%; /* 最大宽度为容器宽度的50% */
+}
+.text-container {
+   flex: 1; /* 文字区域占据剩余空间 */
+}
+img {
+   width: 100%; /* 图片宽度占其容器的100% */
+   height: auto; /* 高度按比例自动调整 */
+}
